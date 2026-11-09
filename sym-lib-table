@@ -1,6 +1,7 @@
 (sym_lib_table
 	(version 7)
 	(lib (name "Managed") (type "HTTP") (uri "${KICATALOG}/inventory.kicad_httplib") (options "") (descr "Managed Components"))
-	(lib (name "KiCatalog_Device") (type "KiCad") (uri "${KICATALOG}/symbols/Device.kicad_symdir") (options "") (descr "Generic symbols for common devices") (disabled) (hidden))
-	(lib (name "KiCatalog_IC") (type "KiCad") (uri "${KICATALOG}/symbols/IC.kicad_symdir") (options "") (descr "All non-specific IC symbols") (disabled) (hidden))
+	(lib (name "Passive") (type "KiCad") (uri "${KICATALOG}/symbols/Passive.kicad_symdir") (options "") (descr "Symbols for passive components") (disabled) (hidden))
+	(lib (name "IC_Generic") (type "KiCad") (uri "${KICATALOG}/symbols/IC_Generic.kicad_symdir") (options "") (descr "All non-specific IC symbols") (disabled) (hidden))
+	(lib (name "IC_RF") (type "KiCad") (uri "${KICATALOG}/symbols/IC_RF.kicad_symdir") (options "") (descr "Radio-frequency/wireless IC symbols") (disabled) (hidden))
 )
